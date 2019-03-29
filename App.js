@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import HomePage from "./Components/HomePage";
 import { Provider } from "react-redux";
@@ -13,3 +13,7 @@ export default class App extends React.Component {
     );
   }
 }
+
+//git push --forcetrying to fix thank you you
+// trying git stash
+// yes
