@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from "redux";
 
 import thunk from "redux-thunk";
-
-const store = createStore(rootReducer, applyMiddleware(thunk));
+import redcuersFile from "./redcuers";
+const store = createStore(redcuersFile, applyMiddleware(thunk));
 
 export default store;
